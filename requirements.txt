@@ -25,7 +25,7 @@ seaborn>=0.11.0
 
 # Export --------------------------------------
 # coremltools>=5.2  # CoreML export
-# onnx>=1.9.0  # ONNX export
+onnx==1.12.0  # ONNX export,for i9, using 1.12.0, while >=1.13.0,need protobuf>=3.20.1, and if use 1.9.0, then numpy need to low
 # onnx-simplifier>=0.4.1  # ONNX simplifier
 # nvidia-pyindex  # TensorRT export
 # nvidia-tensorrt  # TensorRT export
